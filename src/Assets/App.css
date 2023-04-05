@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+/*======================================
+  General Style Start
+======================================*/
+.btn {
+  border-radius: 12px;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  padding: 16px 0px;
+  min-height: 40px;
+  min-width: 175px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn.btn-green {
+  border: 2px solid #00AD96;
+  background-color: #00AD96;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn.btn-green:focus,
+.btn.btn-green:hover,
+.btn.btn-green:active {
+  background-color: #16ECB3;
+  border-color: #16ECB3;
+  color: #ffffff;
+  box-shadow: 0px 0px 8px #16ECB3, inset 0px 0px 8px #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/*======================================
+  General Style End
+======================================*/
+/*!============================================================================*/
+/*======================================
+  Navbar Style Start
+======================================*/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+/*======================================
+  Navbar Style End
+======================================*/
+/*!============================================================================*/
+/*======================================
+  Homepage Style Start
+======================================*/
+
+.homepage-hero {
+  height: auto;
+  min-height: 780px;
+  position: relative;
+  background-color: #0b0a17;
+  z-index: 1;
+  overflow: hidden;
+  padding: 170px 0 60px;
+}
+
+.homepage-hero::after {
+  background-image: url(https://moralis.io/wp-content/uploads/pages/home6/moralisHeroWelcome.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -110px;
+  width: 100%;
+  height: 100%;
+  content: '';
+  right: -350px;
+  z-index: -1;
+}
+
+.homepage-hero .inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.homepage-hero .container,
+.homepage-hero .container .row {
+  height: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.homepage-hero .main-heading,
+.index-module_type__E-SaG::after {
+  color: #FFFFFF;
+  font-size: 88px;
+  font-weight: 800;
+  line-height: 90px;
+  letter-spacing: -3.5px;
+  background: -o-radial-gradient(56.6% 132.65% at 51.28% 100%, #FFFFFF 9.91%, #8FA3C3 98.96%);
+  background: radial-gradient(56.6% 132.65% at 51.28% 100%, #FFFFFF 9.91%, #8FA3C3 98.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homepage-hero .main-desc {
+  background: -o-linear-gradient(180.27deg, #E6EAF0 16.96%, #6F86A9 99.76%);
+  background: linear-gradient(269.73deg, #E6EAF0 16.96%, #6F86A9 99.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  max-width: 450px;
+  text-align: left;
+  color: #99D3FF;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: 0.2px;
+  margin-bottom: 32px;
 }
+
+.start-form {
+  max-width: 620px;
+  margin-bottom: 32px;
+}
+
+.start-form .d-flex {
+  column-gap: 16px;
+}
+
+.start-form .form-control {
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #005AC2;
+  border-radius: 12px;
+  transition: 300ms;
+  padding: 14px;
+  letter-spacing: 0.3px;
+  border: 2px solid #ffffff;
+  min-height: 47px;
+}
+
+.start-form .form-control::placeholder {
+  color: #9cbfe7;
+}
+
+.start-form .form-control:focus {
+  border-color: #0F7FFF;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  box-shadow: none;
+}
+
+.start-form .btn {
+  max-width: 30%;
+  flex: 0 0 30%;
+}
+
+.start-form .note {
+  color: #99D3FF;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.65;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.trusted {
+  padding: 30px 0 50px;
+  background-color: #0C0A17;
+}
+
+.trusted .h4 {
+  color: #DCEEFE;
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.28;
+  letter-spacing: 0.63px;
+  margin-bottom: 32px;
+}
+
+/*======================================
+  Homepage Style End
+======================================*/
+
+

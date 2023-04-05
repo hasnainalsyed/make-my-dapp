@@ -15,8 +15,8 @@ const EmailForm = () => {
   }
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
+    <div className='start-form'>
+      <form onSubmit={handleSubmit} className='form'>
         <div className="d-flex">
           <input
             className='form-control'
@@ -28,11 +28,11 @@ const EmailForm = () => {
             onChange={handleEmailChange}
             value={email}
           />
-          <button className="btn btn-red">SUBSCRIBE</button>
+          <button className="btn btn-green">Get Started</button>
         </div>
       </form>
       <p className="note">No Credit Card Required.</p>
-    </>
+    </div>
   )
 }
 
