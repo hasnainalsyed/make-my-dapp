@@ -27,6 +27,42 @@
   box-shadow: 0px 0px 8px #16ECB3, inset 0px 0px 8px #FFFFFF;
 }
 
+.btn.btn-link {
+  padding: 0;
+  display: inline;
+  font-weight: 600;
+  color: #57A5FF;
+  font-size: 21px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.btn.btn-link:focus,
+.btn.btn-link:hover,
+.btn.btn-link:active {
+  color: #99D3FF;
+  text-decoration: underline;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.heading {
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -1.25px;
+}
+
+h2.heading {
+  font-size: 64px;
+  margin-bottom: 0.75em;
+}
+
+.color-blue {
+  color: #041836;
+}
+
 /*======================================
   General Style End
 ======================================*/
@@ -183,6 +219,54 @@
   line-height: 1.28;
   letter-spacing: 0.63px;
   margin-bottom: 32px;
+}
+
+.build-web .text-center p {
+  max-width: 1200px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos .logo {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc(100% / 10);
+  max-width: calc(100% / 10);
+  text-align: center;
+}
+
+.logos .logo .img {
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logos .logo .img .inner {
+  width: 60px;
+  opacity: 0.8;
+}
+
+.logos .logo .img .inner:hover {
+  opacity: 1;
+}
+
+.logos .logo .img .inner img {
+  width: 60px;
+  height: 60px;
+}
+
+.logos .logo span {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.cross-chain .mt-60 {
+  margin-top: 60px;
 }
 
 /*======================================
