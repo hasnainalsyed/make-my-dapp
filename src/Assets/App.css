@@ -48,6 +48,10 @@
   padding: 60px 0;
 }
 
+.section-padding-70 {
+  padding: 70px 0 80px;
+}
+
 .heading {
   font-weight: 800;
   line-height: 1.1;
@@ -76,6 +80,14 @@ h4.heading {
   line-height: 1.12;
   letter-spacing: -0.2px;
   margin-bottom: 32px;
+}
+
+.sub-heading {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #57A5FF;
 }
 
 .color-blue {
@@ -376,6 +388,7 @@ h4.heading {
 
 .web-hooks {
   padding: 200px 0 90px;
+  overflow: hidden;
 }
 
 .tag {
@@ -414,6 +427,50 @@ h4.heading {
 .web-hooks .row .col-md-6:last-child {
   max-width: 45%;
   flex: 0 0 45%;
+}
+
+.testimonials .testimonial-item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.testimonials .data {
+  padding-left: 70px;
+  max-width: 95%;
+}
+
+.testimonials .flex-row-reverse .data {
+  padding-left: 0;
+  padding-right: 70px;
+}
+
+.testimonials .quote {
+  margin: 26px 0 22px;
+  color: #4F5760;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.105;
+  letter-spacing: -0.68px;
+}
+
+.testimonials .author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials .author .name p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.28;
+  color: #041836;
+  margin-bottom: 0;
+}
+
+.testimonials .author .name span {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.67;
+  color: #A8AFB7;
 }
 
 /*======================================
