@@ -54,6 +54,12 @@
   letter-spacing: -1.25px;
 }
 
+h4.heading {
+  font-size: 31px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 h2.heading {
   font-size: 64px;
   margin-bottom: 0.75em;
@@ -61,6 +67,10 @@ h2.heading {
 
 .color-blue {
   color: #041836;
+}
+
+.bg-black {
+  background-color: #101419;
 }
 
 /*======================================
@@ -265,8 +275,90 @@ h2.heading {
   text-transform: capitalize;
 }
 
+.cross-chain.section-padding {
+  padding: 0 0 160px 0;
+}
+
 .cross-chain .mt-60 {
   margin-top: 60px;
+}
+
+.web-three-api .web-three-inner {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: -80px;
+  margin-bottom: 0px;
+  padding: 70px 80px 60px 80px;
+  z-index: 11;
+  border-radius: 32px;
+  background-color: #19212C;
+  padding: 70px 80px 80px 80px;
+}
+
+.web-three-api .web-three-inner h2.heading {
+  margin-bottom: 1em;
+}
+
+.barChartBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.barChartBox .logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.25;
+  letter-spacing: -0.008em;
+  color: #85B3DB;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.barChartBox .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #33FFCD;
+}
+
+.barChartBox .text p {
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 1;
+  letter-spacing: -0.012em;
+  margin-bottom: 0;
+}
+
+.barChartBox .text span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #85B3DB;
+  display: block;
+}
+
+.bar {
+  background: #396993;
+  border-radius: 6px;
+  width: 1%;
+  margin: 15px 0 40px;
+  color: #fff;
+  position: relative;
+  -webkit-transition: width 2s, background 0.2s;
+  -o-transition: width 2s, background 0.2s;
+  transition: width 2s, background 0.2s;
+  -webkit-transform: translate3d(0, 0, 0);
+  clear: both;
+  height: 12px;
+}
+
+.bar.moralisBar {
+  background: -webkit-gradient(linear, left top, right top, color-stop(65.66%, #0F7FFF), to(#30F6D0)), -webkit-gradient(linear, right top, left top, color-stop(22.35%, #005AC2), to(#57A5FF)), #D9D9D9;
+  background: -o-linear-gradient(left, #0F7FFF 65.66%, #30F6D0 100%), -o-linear-gradient(right, #005AC2 22.35%, #57A5FF 100%), #D9D9D9;
+  background: linear-gradient(90deg, #0F7FFF 65.66%, #30F6D0 100%), linear-gradient(270deg, #005AC2 22.35%, #57A5FF 100%), #D9D9D9;
 }
 
 /*======================================
