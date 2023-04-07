@@ -54,15 +54,28 @@
   letter-spacing: -1.25px;
 }
 
+h2.heading {
+  font-size: 64px;
+  margin-bottom: 0.75em;
+}
+
+h3.heading {
+  font-size: 54px;
+  letter-spacing: -1.08px;
+}
+
 h4.heading {
   font-size: 31px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-h2.heading {
-  font-size: 64px;
-  margin-bottom: 0.75em;
+.big-text {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.2px;
+  margin-bottom: 32px;
 }
 
 .color-blue {
@@ -359,6 +372,48 @@ h2.heading {
   background: -webkit-gradient(linear, left top, right top, color-stop(65.66%, #0F7FFF), to(#30F6D0)), -webkit-gradient(linear, right top, left top, color-stop(22.35%, #005AC2), to(#57A5FF)), #D9D9D9;
   background: -o-linear-gradient(left, #0F7FFF 65.66%, #30F6D0 100%), -o-linear-gradient(right, #005AC2 22.35%, #57A5FF 100%), #D9D9D9;
   background: linear-gradient(90deg, #0F7FFF 65.66%, #30F6D0 100%), linear-gradient(270deg, #005AC2 22.35%, #57A5FF 100%), #D9D9D9;
+}
+
+.web-hooks {
+  padding: 200px 0 90px;
+}
+
+.tag {
+  background: #005AC2;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.web-hooks h3.heading {
+  margin-bottom: 32px;
+  max-width: 95%;
+}
+
+.web-hooks .big-text {
+  max-width: 550px;
+}
+
+.web-hooks .img-wrap {
+  -webkit-box-shadow: -130px 74px 250px #8F36A5;
+  box-shadow: -130px 74px 250px #8F36A5;
+  border-radius: 30px;
+}
+
+.web-hooks .row .col-md-6:first-child {
+  max-width: 55%;
+  flex: 0 0 55%;
+}
+
+.web-hooks .row .col-md-6:last-child {
+  max-width: 45%;
+  flex: 0 0 45%;
 }
 
 /*======================================

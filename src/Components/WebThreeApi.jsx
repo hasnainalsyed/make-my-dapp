@@ -71,6 +71,24 @@ const WebThreeApi = () => {
             </div>
           </div>
         </div>
+
+        <div className="web-hooks bg-black">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <span className="tag">NEW</span>
+                <h3 className="heading text-white">Stream real-time data with webhooks</h3>
+                <p className="big-text text-white">Enhance your dapp by streaming real-time blockchain data to your backend from Ethereum, Polygon, Avalanche, BNB Chain, Fantom, Cronos and all testnets.</p>
+                <a href="/api" className='btn btn-link'><i class="fa-solid fa-book"></i> Read more about Streams</a>
+              </div>
+              <div className="col-md-6">
+                <div className="img-wrap">
+                  <img src="/images/moralisStreamsNew.svg" alt="moralisStreamsNew" className='img-fluid' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )
